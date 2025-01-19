@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Snake Grand Format</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Snake Grand Format</h1>
+
+    <!-- Terrain de jeu : 800×600 -->
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+
+    <!-- Tableau d’informations : score, consignes -->
+    <div class="info-panel">
+      <p>Score : <span id="score">0</span></p>
+      <p class="instructions">
+        Déplace-toi avec les flèches ou ZQSD.<br/>
+        Le jeu commence ou se relance dès que tu appuies sur une touche de direction.
+      </p>
+    </div>
+  </div>
+
+  <!-- Script principal du jeu -->
+  <script src="script.js"></script>
+</body>
+</html>

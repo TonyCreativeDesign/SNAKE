@@ -1,0 +1,55 @@
+/* ------- Reset léger ------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #111; /* fond sombre */
+    font-family: Arial, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Conteneur principal centré */
+  .container {
+    text-align: center;
+  }
+  
+  /* Titre */
+  h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  /* Canvas plus grand */
+  #gameCanvas {
+    background: #222; 
+    display: block; 
+    margin: 0 auto;
+    border: 2px solid #444;
+  }
+  
+  /* Panneau d'infos sous le canvas */
+  .info-panel {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  .info-panel p {
+    margin: 0;
+  }
+  
+  /* Style pour les instructions */
+  .instructions {
+    font-size: 0.9em;
+    color: #ccc;
+  }
+  
