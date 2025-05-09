@@ -1,7 +1,7 @@
 # SNAKE
 
 Jeu “Snake Grand Format”
-Ce projet est une version du célèbre jeu Snake, adaptée pour une grande surface de jeu (800×600) et démarrant automatiquement dès qu’on appuie sur une touche de direction (flèche ou ZQSD).
+Ce projet est une version du célèbre jeu Snake, adaptée pour une grande surface de jeu (800×600) et démarrant automatiquement dès qu’on appuie sur une touche de direction (flèche ou ZQSD). (Sinon il faut cliquer dans le rectangle jaune et spamer les flèches directionnelles)
 
 1. Présentation
 Le joueur contrôle un serpent qui se déplace sur une grille.
