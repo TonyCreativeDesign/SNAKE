@@ -1,28 +1,29 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Snake Grand Format</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Grand Format Amélioré</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h1>Snake Grand Format</h1>
-
-    <!-- Terrain de jeu : 800×600 -->
-    <canvas id="gameCanvas" width="800" height="600"></canvas>
-
-    <!-- Tableau d’informations : score, consignes -->
+    <h1>Snake341</h1>
+    <p>spam les flèches si ça marche pas frere</p>
+    <div class="canvas-wrapper">
+      <canvas id="gameCanvas" width="800" height="600"></canvas>
+    </div>
     <div class="info-panel">
-      <p>Score : <span id="score">0</span></p>
+      <p>Score: <span id="score">0</span> | Meilleur: <span id="highScore">0</span></p>
+      <p>Niveau: <span id="level">1</span> Vitesse: <span id="speedDisplay">5</span>x</p>
       <p class="instructions">
-        Déplace-toi avec les flèches ou ZQSD.<br/>
-        Le jeu commence ou se relance dès que tu appuies sur une touche de direction.
+        Utilise Flèches ou ZQSD pour déplacer le serpent. P pour Pause/Reprendre.<br>
+        Appuie sur une touche pour démarrer ou rejouer.
       </p>
+      <button id="pauseBtn">Pause</button>
     </div>
   </div>
-
-  <!-- Script principal du jeu -->
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
